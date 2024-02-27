@@ -1,0 +1,9 @@
+- Pesquisa em largura diz se há um caminho de A para B
+- Se o caminho existir a pesquisa dirá o caminho minimo
+- Se temos um problema do tipo "encontre o menor X" tente modelar utilizando gravos e pesquisa em largura.
+- Um dígrafo contém setas e as relações a direção das setas
+- Grafos não direcionados não contem setas, e a relação acontece nos 2 sentidos
+- Filas são FIFO (first in first out)
+- Pilhas são LIFO (Last in first out)
+- Verificar os vértices na ordem em que forem adicionados. Lista de pesquisa deve ser uma fila.
+- Cada vez que verificar alguém lembrar de adicionalo a uma lista de verificados para não verificar novamente.
