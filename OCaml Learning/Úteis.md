@@ -1,0 +1,13 @@
+Ao criar um projeto com: **dune init proj <nome_projeto>** algumas pastas são criadas, são elas: _build, bin, lib, test
+- **_build**: Contem os arquivos gerados pela compilação do projeto.
+	- **log**: Arquivo que contem as ações realizadas pelo OCaml durante a compilação.
+- **bin**: Pasta onde colocamos os arquivos que definem os executais do projeto. Um executavel é um programa que pode ser rodado diretamente pelo sistema operacional, sem precisar de um interpretador ou um compilador.
+	- **dune**: Arquivo onde especifica as configurações e dependencias do nosso executavel. O dune é um sistema de build para OCaml que facilita a compilação e execução dos projetos.
+	- **main.ml**: Este é o arquivo principal do seu executavel, onde você vai escrever o código OCaml que define nosso programa. Podemos usar outros arquivos e modulos para organizar melhor o seu código, mas esse é o ponto de entrada do seu executavel.
+- **dune-project:** Arquivo que identifica o projeto como um projeto dune. Contém informações gerais sobre o projeto, nome, versão, autores. licenças, etc...
+- **helloworld.opam:** É um arquivo que descreve seu projeto como um pacote opam. Opam é gerenciador de pacotes para OCaml, que permite instalar e usar as bibliotecas de terceiros no seu projeto. Este arquivo contém informações sobre as dependencias os arquivos e os comandos do seu pacote.
+- **lib:** Pasta onde vai ser colocados os arquivos que definem as bibliotecas do projeto. Uma biblioteca é um conjunto de modulos e funções que podem ser reutilizados em outros projetos ou executáveis.
+	- **dune:** Arquivo que especifica as configurações e dependencias da biblioteca. Segue o mesmo formato do arquivo dune da pasta bin.
+- **test:** Pasta onde coloca-se os arquivos que definem os testes do projeto. Testes são os programas que verificam se o código funciona corretamente, comparando os resultados esperados com os obtidos.
+	- **dune:** Arquivo que especifica as configurações e dependencias dos testes.
+	- **helloworld.ml** Contem os testes do projeto. Pode-se usar bibliotecas de testes como Alcotest ou OUnit para escrever e executar os testes.
