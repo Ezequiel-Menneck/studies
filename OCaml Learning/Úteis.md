@@ -1,8 +1,8 @@
 Ao criar um projeto com: **dune init proj <nome_projeto>** algumas pastas são criadas, são elas: _build, bin, lib, test
 - **_build**: Contem os arquivos gerados pela compilação do projeto.
 	- **log**: Arquivo que contem as ações realizadas pelo OCaml durante a compilação.
-- **bin**: Pasta onde colocamos os arquivos que definem os executais do projeto. Um executavel é um programa que pode ser rodado diretamente pelo sistema operacional, sem precisar de um interpretador ou um compilador.
-	- **dune**: Arquivo onde especifica as configurações e dependencias do nosso executavel. O dune é um sistema de build para OCaml que facilita a compilação e execução dos projetos.
+- **bin**: Pasta onde colocamos os arquivos que definem os executais do projeto. Um executável é um programa que pode ser rodado diretamente pelo sistema operacional, sem precisar de um interpretador ou um compilador.
+	- **dune**: Arquivo onde especifica as configurações e dependências do nosso executável. O dune é um sistema de build para OCaml que facilita a compilação e execução dos projetos.
 	- **main.ml**: Este é o arquivo principal do seu executavel, onde você vai escrever o código OCaml que define nosso programa. Podemos usar outros arquivos e modulos para organizar melhor o seu código, mas esse é o ponto de entrada do seu executavel.
 - **dune-project:** Arquivo que identifica o projeto como um projeto dune. Contém informações gerais sobre o projeto, nome, versão, autores. licenças, etc...
 - **helloworld.opam:** É um arquivo que descreve seu projeto como um pacote opam. Opam é gerenciador de pacotes para OCaml, que permite instalar e usar as bibliotecas de terceiros no seu projeto. Este arquivo contém informações sobre as dependencias os arquivos e os comandos do seu pacote.
