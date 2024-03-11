@@ -7,8 +7,7 @@ E temos o seguinte retorno
 ```ocaml
 val quadrado : int -> int = <fun>
 ```
-Essa é a **assinatura da função**.
-Quando começamos a ler um retorno de função o primeiro valor que é importante é o TIPO após a última flecha, que é o tipo de retorno da função. Os demais valores anteriores a flecha são os tipos dos parâmetros que a função recebe.
+Essa é nossa **assinatura da função**. Quando começamos a ler uma assinatura de função o primeiro valor que nos importa é o tipo após a última flecha que é o tipo de retorno da função e então todos os valores anteriores a última flecha são os tipos dos parâmetros que a função recebe. Essa assinatura pode ser lida como _a função quadrado recebe um parâmetro do tipo inteiro e retorna um valor do tipo inteiro_.
 
 ### Funções de alta ordem
 São as funções que recebem uma função como parametro ou as que retornam uma função. Um exemplo é a função List.map porque o seu primeiro argumento é uma função, sua assinatura é:
@@ -182,3 +181,44 @@ Para que seja possível canalizar uma saída de função ou valor é necessário
 ```
 
 ### Composição de Funções
+
+É quando conectamos a saída de uma de nossas funções a entrada de outra e armazenamos isso em outra função. Exemplo, temos uma função que recebe um argumento do tipo 'a e que retorna um valor de tipo 'b e que temos uma terceira função que recebe o tipo 'b e retorna 'c, logo compomos uma nova função que mapeia de 'a para 'c.
+
+```ocaml
+(* funções de composição*)
+let (<<) f g x = f(g(x));;
+let (>>) f g x = g(f(x));;
+
+(* funções exemplo *)
+let menos x y = x - y |> abs;;
+(* val menos : int -> int -> int = <fun> *)
+
+let menos1 = menos 1;;
+(* val menos1 : int -> int = <fun> *)
+
+let vezes x y = x * y;;
+(* val vezes : int -> int -> int = <fun> *)
+
+let vezes2 = (vezes) 2;;
+(* val vezes2 : int -> int = <fun> *)
+
+(* funções aplicadas *)
+menos1 9;;                    
+(* - : int = 8 *)
+
+vezes2 8;;
+(* - : int = 16 *)
+
+(* redirecionamento *)
+let menos1EntaoVezes2 = vezes2 << menos1;;
+(* val menos1EntaoVezes2 : int -> int = <fun> *)
+
+menos1EntaoVezes2 9;;
+(* - : int = 16 *)
+
+let vezes2EntaoMenos1 = vezes2 >> menos1;;
+(* val vezes2EntaoMenos1 : int -> int = <fun> *)
+
+vezes2EntaoMenos1 9;;
+(* - : int = 17 *)
+```

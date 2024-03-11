@@ -11,3 +11,11 @@ Ao criar um projeto com: **dune init proj <nome_projeto>** algumas pastas são c
 - **test:** Pasta onde coloca-se os arquivos que definem os testes do projeto. Testes são os programas que verificam se o código funciona corretamente, comparando os resultados esperados com os obtidos.
 	- **dune:** Arquivo que especifica as configurações e dependencias dos testes.
 	- **helloworld.ml** Contem os testes do projeto. Pode-se usar bibliotecas de testes como Alcotest ou OUnit para escrever e executar os testes.
+
+
+### Comando úteis
+
+**Iniciar projeto:** dune init proj 'nome do projeto'
+**Buildar projeto:** dune build
+**Rodar projeto:** dune exec 'nome do projeto'
+**Rodar Script:** ocaml 'nome do script'
