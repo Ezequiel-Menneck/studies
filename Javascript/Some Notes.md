@@ -11,6 +11,8 @@ Pode ser escrita como:
 (() => {console.log("oi²")})()
 ```
 
+-> Caso o trecho de código anterior a função IIFE não terminar com ; o interpretador do JS irá dar erro informando que não reconhece sua IIFE como uma função (desconheço o porque.)
+
 ### Typeof
 
 Retorna uma string indicando o tipo do operador selecionado
