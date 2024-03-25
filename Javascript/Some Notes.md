@@ -99,3 +99,13 @@ console.log(Symbol.for("carro")) // Cria o Symbol("carro") e nos retorna ele mes
 Symbol.keyFor("key tipo Symbol") 
 ```
 
+
+- Pegue o frangote e corte-o ao meio (Isso se for peito, caso seja sassami não precisa)
+- Tempero:
+	- Sal - 1 colher de café
+	- Pimenta - 1/2 colher de café
+	- Lemon Peper - 1 colher de café
+	- Paprica defumada - 1/2 colher de café
+	- Suco de 1 limão OU um pouco de vinagre
+- Deixe temperando na geladeira
+- Frite com pouco óleo (o suficiente p n grudar, um fio)
