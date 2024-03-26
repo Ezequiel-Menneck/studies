@@ -1,4 +1,4 @@
-##### Função Anônima Imediatamente Invocada (Immediately Invoked Function Expression - IIFE)
+## Função Anônima Imediatamente Invocada (Immediately Invoked Function Expression - IIFE)
 
 Função que não precisa ter necessariamente um nome (pode ter mas será ignorado já que é anonimo) e é executada logo após sua "criação", ou seja, no momento que o código está sendo executado e chega na linha dela ela é executada.
 Pode ser escrita como:
@@ -12,8 +12,24 @@ Pode ser escrita como:
 ```
 
 -> Caso o trecho de código anterior a função IIFE não terminar com ; o interpretador do JS irá dar erro informando que não reconhece sua IIFE como uma função (desconheço o porque.)
+### Casos de uso
+-> Evitar poluir o global namespace, porque caso nossa aplicações incluir muitas funções e variáveis globais a partir de diferentes arquivos é importante limitar o número de variáveis globais.
+-> Caso temos algum código que precise ser executado ao inicio do programa e não será reutilizado podemos usar o padrão de IIFE.
+```javascript
+(() => {
+  // some initiation code
+  let firstVariable;
+  let secondVariable;
+})();
 
-### Typeof
+// firstVariable and secondVariable will be discarded after the function is executed.
+```
+
+### Funções Async com IIFE 
+-> Podemos usar o IIFE de modo async utilizando await e for-await.
+
+
+## Typeof
 
 Retorna uma string indicando o tipo do operador selecionado
 ```javascript
@@ -31,7 +47,7 @@ console.log(typeof "32");
 ```
 
 
-### Instanceof
+## Instanceof
 
 Verifica se um objeto, number, string (alguma coisa que escolhermos) é uma instancia derivada de um objeto, number, string (algo que escolhermos de novo)
 ```javascript
@@ -100,12 +116,5 @@ Symbol.keyFor("key tipo Symbol")
 ```
 
 
-- Pegue o frangote e corte-o ao meio (Isso se for peito, caso seja sassami não precisa)
-- Tempero:
-	- Sal - 1 colher de café
-	- Pimenta - 1/2 colher de café
-	- Lemon Peper - 1 colher de café
-	- Paprica defumada - 1/2 colher de café
-	- Suco de 1 limão OU um pouco de vinagre
-- Deixe temperando na geladeira
-- Frite com pouco óleo (o suficiente p n grudar, um fio)
+## JavaScript Built-in Functions
+- https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm
