@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Recursion and Stack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71f1a93f81940796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Roadmap.md",
+                "file": "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap.md"
+                "file": "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,22 +147,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71f1a93f81940796",
+  "active": "24d1be90e878ae18",
   "lastOpenFiles": [
     "Javascript/Recursion and Stack.md",
+    "Captura de tela de 2023-02-26 17-03-38.png.md",
+    "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
+    "Javascript/Some Notes.md",
+    "Java",
+    "Javascript/Promises.md",
+    "Javascript/Keyed collections.md",
+    "Javascript/Destructuring.md",
+    "Javascript/Closures.md",
+    "Javascript/Arguments Object.md",
     "Roadmap.md",
     "Algorithms/Java",
-    "Javascript/Some Notes.md",
     "Javascript/code/recursion.js",
     "Javascript/code/recursion",
-    "Javascript/Arguments Object.md",
     "Javascript/code/argumentsObject.js",
     "Javascript/code/arguments-object.js",
     "Javascript/code/arguments-object",
     "Javascript/code/async-await.js",
     "Javascript/code/iife.js",
     "Algorithms/Ts",
-    "Algorithms/Js",
     "vue-learning/Fundamentos da Reatividade.md",
     "vue-learning/Especificação da Sintaxe.md",
     "vue-learning/Binds HTML.md",
@@ -194,12 +188,6 @@
     "Data-Structures/Oque são Estruturas de Dados.md",
     "Data-Structures/Linked List.md",
     "Data-Structures/Arrays.md",
-    "OCaml Learning/Úteis.md",
-    "OCaml Learning/Scripts e REPL.md",
-    "OCaml Learning/Funções.md",
-    "OCaml Learning/Funções e oque fazem.md",
-    "OCaml Learning/Build - Dune.md",
-    "Javascript/Closures.md",
     "Data Structures/Imagens/Pasted image 20231103164733.png",
     "Livros/Entendendo Algoritmos/Imagens/Pasted image 20240103175518.png",
     "Livros/Entendendo Algoritmos/Imagens/Pasted image 20240103175653.png",
