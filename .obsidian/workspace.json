@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "139d59d9184e7526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/Course/Outline.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Js Assincrono.md"
+                "file": "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md"
               }
             }
           }
@@ -147,17 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8a50ffa3ab39dd1",
+  "active": "9fc88c6bcdb0b6ab",
   "lastOpenFiles": [
-    "Javascript/Promises.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/2. Hello world!.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/3. Operador curto de declaração.md",
+    "Go/Course/Outline.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos",
     "Javascript/Js Assincrono.md",
+    "Javascript/Promises.md",
     "Javascript/code/async.js",
     "Javascript/this.md",
     "Untitled.md",
     "Javascript/Closures.md",
     "Javascript/code/test.js",
     "Javascript/Arguments Object.md",
-    "Go/Course/Outline.md",
     "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
     "Go/Course",
     "Go",
@@ -172,7 +188,6 @@
     "Javascript/code/recursion.js",
     "Javascript/code/recursion",
     "Javascript/code/argumentsObject.js",
-    "Javascript/code/arguments-object.js",
     "vue-learning/Fundamentos da Reatividade.md",
     "vue-learning/Especificação da Sintaxe.md",
     "vue-learning/Binds HTML.md",
@@ -182,11 +197,9 @@
     "OCaml-Learning/Scripts e REPL.md",
     "OCaml-Learning/Funções.md",
     "OCaml-Learning/Funções e oque fazem.md",
-    "OCaml-Learning/Build - Dune.md",
     "Data-Structures/Imagens/Pasted image 20231103213413.png",
     "Data-Structures/Imagens/Pasted image 20231103202036.png",
     "Data-Structures/Imagens/Pasted image 20231103164733.png",
-    "Data-Structures/Tree.md",
     "Data Structures/Imagens/Pasted image 20231103164733.png",
     "Livros/Entendendo Algoritmos/Imagens/Pasted image 20240103175518.png",
     "Livros/Entendendo Algoritmos/Imagens/Pasted image 20240103175653.png",
