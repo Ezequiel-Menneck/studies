@@ -57,7 +57,7 @@ minhaPromise
 `Promise.all` -> Aguarda até que todas as promises sejam cumpridas ou que alguma seja rejeitada.
 `Promise.allSettled` -> Aguarda até que todas as promises sejam resolvidas (podem ser cumpridas ou rejeitadas)
 `Promise.reject(reason)`-> Retorna um novo objeto Promise que é rejeitado com o motivo fornecido
-`Promise.resolve(value)` -> Retorna um nojo objeto Promise que é resolvido com o valor fornecido.
+`Promise.resolve(value)` -> Retorna um novo objeto Promise que é resolvido com o valor fornecido.
 
 ***Note***
 ```javascript
