@@ -21,4 +21,11 @@
 	-> Uma função para ser chamada quando a promise for rejected (deu ruim)
 ->
 
-#### Como o then() funciona de baixo dos panos?
+
+### Chaining
+
+-> Chaining refere-se a notação de chamar o then() na promise retornada por outro then()
+-> Como funciona: Quando chamamos .then(f1, r1) estamos criando uma nova promise que é guardada internamente em uma nova fila, divergente da successCallbackQueue e failureCallbackQueue e é resolvida quando chamamos um de seus callback, f1 ou r1
+-> 3 Retornos possíveis quando chamamos um callback pro then():
+	-> Non-promise value: Se retornamos algo que não é promise, como number, string, array a promise se resolve e assume esse valor.
+	-> Exception: É resolvida imediatamente no reject e retorna um promise rejected assumindo o valor do erro também 
