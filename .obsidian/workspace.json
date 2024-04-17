@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6f4057e30f78831c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Js Assincrono.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "26cf72773076dfea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Promises.md",
+                "file": "Javascript/Js Assincrono.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f4057e30f78831c",
+  "active": "26cf72773076dfea",
   "lastOpenFiles": [
     "Javascript/Promises.md",
     "Javascript/Js Assincrono.md",

@@ -1,32 +1,80 @@
-setTimeout(() => {
-  console.log("Hewllo");
-}, 3000);
+// async function f() {
+//   return 1;
+// }
 
-const timerPromise = new Promise(function (resolve, reject) {
-  setTimeout(() => {
-    resolve("Tudo nos conformes");
-  }, 2000);
-  setTimeout(() => {
-    reject("Erro 404");
-  }, 3000);
-});
+// // f().then(alert); // Estoura o pop up de alerta na tela
 
-timerPromise.then(
-  (e) => console.log(`Deu boa: ${e}`),
-  (j) => console.log(`Deu Erro; ${j}`)
-);
-// Nesse caso apenas o resolve será executado, já que ele chega primeiro
+// async function w() {
+//   let promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Done");
+//     }, 1000);
+//   });
+//   console.log("antes");
+//   let result = await promise;
+//   console.log("dps");
 
-const timerPromise2 = new Promise(function (resolve, reject) {
-  setTimeout(() => {
-    resolve("Tudo nos conformes");
-  }, 4000);
-  setTimeout(() => {
-    reject("Erro 404");
-  }, 5000);
-}).then((e) => {
-  console.log(e);
-});
-// Não precisamos chamar a promise separada depois, podemos meter o .then() direto depois dela e ser feliz
+//   // alert(result);
+// }
 
-console.log(typeof timerPromise);
+// async function j() {
+//   let promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Feito");
+//     }, 1000);
+//   });
+
+//   return promise;
+// }
+
+// async function robinho() {
+//   let resolveWithAwait = await j();
+
+//   console.log(resolveWithAwait);
+// }
+
+// robinho();
+
+// w();
+
+async function e() {
+  let userName = "Ezequiel-Menneck";
+  try {
+    let result = await fetch(`https://api.github.com/users/${userName}`);
+    let gitInfos = await result.json();
+
+    return gitInfos;
+  } catch (e) {
+    throw new Error("Ops, Error: " + e);
+  }
+}
+
+async function k() {
+  let resolvedInK = await e();
+  console.log(resolvedInK);
+}
+
+console.log(k());
+
+function loadJson(url) {
+  return fetch(url).then((response) => {
+    if (response.status == 200) {
+      return response.json();
+    } else {
+      throw new Error(response.status);
+    }
+  });
+}
+
+loadJson("https://javascript.info/no-such-user.json").catch(alert); // Error: 404
+
+async function loadJson2(url) {
+  let resp = await fetch(url);
+
+  if (resp.status == 200) {
+    let json = await resp.json();
+    return json;
+  }
+
+  throw new Error(resp.status);
+}
