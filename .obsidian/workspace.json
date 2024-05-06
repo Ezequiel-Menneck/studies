@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba1634650f44441",
+        "id": "d755dbcf961c852e",
         "type": "tabs",
         "children": [
           {
-            "id": "26cf72773076dfea",
+            "id": "e31db1599e34dc48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Java/Excessões personalizadas Spring boot.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Java/Excessões personalizadas Spring boot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Js Assincrono.md",
+                "file": "Java/Excessões personalizadas Spring boot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Js Assincrono.md"
+                "file": "Java/Excessões personalizadas Spring boot.md"
               }
             }
           }
@@ -147,44 +147,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26cf72773076dfea",
+  "active": "9fc88c6bcdb0b6ab",
   "lastOpenFiles": [
-    "Javascript/Promises.md",
-    "Javascript/Js Assincrono.md",
-    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
-    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/2. Hello world!.md",
-    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/3. Operador curto de declaração.md",
+    "Java/Microserviços com Spring Cloud, Spring boot e Docker/0611+Conclusão+da+Seção+-+Rápida+Introdução+aos+Microsserviços.txt",
+    "Java/Microserviços com Spring Cloud, Spring boot e Docker/0611+Conclusão+da+Seção+-+Rápida+Introdução+aos+Microsserviços.txt.crdownload",
+    "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
+    "Java/Excessões personalizadas Spring boot.md",
+    "Go/Course/Cap. 8 - Agrupamentos de Dados/Slices.md",
+    "Java/Microserviços com Spring Cloud, Spring boot e Docker/0102+Repositórios+do+Curso+no+Github.txt",
+    "Java/Microserviços com Spring Cloud, Spring boot e Docker/0102+Repositórios+do+Curso+no+Github.txt.crdownload",
+    "Java/Microserviços com Spring Cloud, Spring boot e Docker",
+    "Go/Course/Cap. 6 - Fluxo de controle/2. Loops - Inicialização, condição, pós.md",
+    "Go/Course/Cap. 6 - Fluxo de controle/1. Entendendo fluxo de controle.md",
+    "Go/Course/Cap. 8 - Agrupamentos de Dados/Array.md",
     "Go/Course/Outline.md",
-    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos",
-    "Javascript/code/async.js",
+    "Javascript/Generator.md",
+    "Go/Course/Cap. 8 - Agrupamentos de Dados",
+    "Javascript/Modules.md",
+    "Javascript/code/package.json",
+    "Javascript/code/modules2.js",
+    "Javascript/code/modules.js",
+    "Javascript/code/generator.js",
+    "Javascript/Iterators.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/3. Operador curto de declaração.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/4. A palavra-chave var.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/5. Variáveis, Valores e Tipos.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/6. Valor zero.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/7. O pacote fmt.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/8. Criando próprio tipo.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/9. Conversão.md",
+    "Go/Course/Cap. 6 - Fluxo de controle/3. Nested Loop.md",
+    "Go/Course/Cap. 4 - Fundamentos/7. Constantes.md",
+    "Go/Course/Cap. 6 - Fluxo de controle",
+    "Javascript/fetch.md",
+    "Javascript/Js Assincrono.md",
+    "Javascript/Promises.md",
+    "Go/Course/Cap. 2 – Variáveis, Valores & Tipos/2. Hello world!.md",
     "Javascript/this.md",
     "Untitled.md",
-    "Javascript/Closures.md",
-    "Javascript/code/test.js",
-    "Javascript/Arguments Object.md",
-    "Java/Implementing JSON Web Token (JWT) Authentication using Spring Security.md",
-    "Go/Course",
-    "Go",
-    "Javascript/Recursion and Stack.md",
-    "Captura de tela de 2023-02-26 17-03-38.png.md",
-    "Javascript/Some Notes.md",
-    "Java",
-    "Javascript/Keyed collections.md",
-    "Javascript/Destructuring.md",
-    "Roadmap.md",
-    "Algorithms/Java",
-    "Javascript/code/recursion.js",
-    "Javascript/code/recursion",
-    "Javascript/code/argumentsObject.js",
-    "vue-learning/Fundamentos da Reatividade.md",
-    "vue-learning/Especificação da Sintaxe.md",
-    "vue-learning/Binds HTML.md",
-    "vue-learning/API's.md",
-    "Topics-to-Study/Coisas para estudar.md",
-    "OCaml-Learning/Úteis.md",
-    "OCaml-Learning/Scripts e REPL.md",
-    "OCaml-Learning/Funções.md",
-    "OCaml-Learning/Funções e oque fazem.md",
     "Data-Structures/Imagens/Pasted image 20231103213413.png",
     "Data-Structures/Imagens/Pasted image 20231103202036.png",
     "Data-Structures/Imagens/Pasted image 20231103164733.png",

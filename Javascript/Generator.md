@@ -20,6 +20,8 @@ let seq = sequence();
 console.log(seq.next());
 ```
 
+- Quando uma função retorna p gente algo no yield nos retorna um Object \[Generator] {} (isso utilizando o yield obviamente), caso a gente precise acessar o valor desse retorno sem o .next() (imagine que a gente retorna um array), podemos colocar a função dentro do for of, algo como `for (const i of nossaFunc()) { console.log(i) }` no console.log(i) irá printar o retorno do yield sem ter q usar .next().
+
 ## Como generators funcionam?
 - Revisando o código abaixo:
 ```js
@@ -35,5 +37,4 @@ let seq = sequence();
 - Quando chamamos o método next() pela primeira vez a execução começa dentro do generator and vai até o primeiro yield, ali ele retorna o valor e pausa.
 - Podemos retornar qualquer coisa no yield, função, objeto, e assim vai
 
-### Yield keyword
 

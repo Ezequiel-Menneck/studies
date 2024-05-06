@@ -1,0 +1,7 @@
+https://martinfowler.com/bliki/MonolithFirst.html
+https://techbeacon.com/app-dev-testing/monolith-microservices-horror-stories-best-practices
+https://medium.com/a-technologists-pov/i-just-heard-that-monoliths-are-the-future-of-software-development-2190bf7f3c40
+
+https://www.youtube.com/watch?v=kow-sXTCg30
+https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+https://www.slideshare.net/spnewman/principles-of-microservices-velocity
