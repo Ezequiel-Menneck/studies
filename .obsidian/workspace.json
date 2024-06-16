@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "779f445d08460ed8",
+        "id": "3a07b825f1d7ce22",
         "type": "tabs",
         "children": [
           {
-            "id": "75498055471e5f5c",
+            "id": "223c2b6cbd62fc20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Curso - Aprenda Go/Struct.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "446b39904449416d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Curso - Aprenda Go/0. Outline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1a40df4d659ea58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Arguments Object.md",
+                "file": "Go/Curso - Aprenda Go/Tratamento de Erros.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Curso - Aprenda Go/Struct.md",
+                "file": "Go/Curso - Aprenda Go/Tratamento de Erros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Curso - Aprenda Go/Struct.md",
+                "file": "Go/Curso - Aprenda Go/Tratamento de Erros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Curso - Aprenda Go/Struct.md"
+                "file": "Go/Curso - Aprenda Go/Tratamento de Erros.md"
               }
             }
           }
@@ -171,14 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75498055471e5f5c",
+  "active": "223c2b6cbd62fc20",
   "lastOpenFiles": [
+    "Go/main.go",
+    "Javascript/Arguments Object.md",
+    "Go/Curso - Aprenda Go/0. Outline.md",
+    "Go/Curso - Aprenda Go/Struct.md",
     "Go/Curso - Aprenda Go/Images/Pasted image 20240527160826.png",
     "Go/Curso - Aprenda Go/Images",
     "Go/Curso - Aprenda Go/Images/Pasted image 20240527160814.png",
-    "Go/Curso - Aprenda Go/Erros.md",
+    "Go/Curso - Aprenda Go/Tratamento de Erros.md",
     "Go/Curso - Aprenda Go/Channels.md",
-    "Go/Curso - Aprenda Go/0. Outline.md",
     "Go/Curso - Aprenda Go/Convergência.md",
     "Go/Curso - Aprenda Go/Comandos úteis Go.md",
     "Go/Curso - Aprenda Go/Concorrência.md",
@@ -189,7 +168,6 @@
     "Go/Curso - Aprenda Go/Documentando JSON.md",
     "Go/Curso - Aprenda Go/9. Conversão.md",
     "Go/Curso - Aprenda Go/Array.md",
-    "Go/Curso - Aprenda Go/Struct.md",
     "Go/Curso - Aprenda Go/Slices.md",
     "Go/Curso - Aprenda Go/Ponteiros.md",
     "Go/Curso - Aprenda Go/Notas.md",
@@ -200,7 +178,6 @@
     "Go/Curso - Aprenda Go/Maps.md",
     "Go/Curso - Aprenda Go/8. Criando próprio tipo.md",
     "Go/Curso - Aprenda Go/1. Entendendo fluxo de controle.md",
-    "Go/Curso - Aprenda Go/2. Hello world!.md",
     "Go/Curso - Aprenda Go/Cap. 16 - Aplicações",
     "Java/Microserviços com Spring Cloud, Spring boot e Docker/0611+Conclusão+da+Seção+-+Rápida+Introdução+aos+Microsserviços.txt",
     "Java/Microserviços com Spring Cloud, Spring boot e Docker/0611+Conclusão+da+Seção+-+Rápida+Introdução+aos+Microsserviços.txt.crdownload",
